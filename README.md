@@ -17,8 +17,7 @@ The pipeline follows a standard machine learning workflow using **Scikit-Learn**
 * Used `SelectKBest` (f_regression) to filter out noise and keep only the most relevant features.
 **Modeling**:
 * Tested several regressors including Linear Regression, SVR, Random Forest, and XGBoost.
-* Hyperparameters were tuned using `GridSearchCV` to minimise Mean Absolute Error (MAE).
-* The best performing model is automatically saved as `rfs_model.joblib`.
+
 
 ### 2. Model Selection
 Several regression algorithms were evaluated using Cross-Validation:
@@ -29,4 +28,5 @@ Several regression algorithms were evaluated using Cross-Validation:
 - XGBoost Regressor
 
 ### 3. Hyperparameter Tuning
-GridSearchCV was employed to optimise hyperparameters for the top-performing models to minimise the **Mean Absolute Error (MAE)**.
+Hyperparameters were tuned using `GridSearchCV` to minimise the **Mean Absolute Error (MAE)**.
+The best performing model is automatically saved as `rfs_model.joblib`.
