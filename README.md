@@ -28,5 +28,5 @@ Several regression algorithms were evaluated using Cross-Validation:
 - XGBoost Regressor
 
 ### 3. Hyperparameter Tuning
-Hyperparameters were tuned using `GridSearchCV` to minimise the **Mean Absolute Error (MAE)**.
+Hyperparameters were tuned using `GridSearchCV` to minimise the **Mean Absolute Error (MAE)**.<br>
 The best performing model is automatically saved as `rfs_model.joblib`.
